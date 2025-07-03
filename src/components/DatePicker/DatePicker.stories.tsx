@@ -1,5 +1,5 @@
-import { StoryObj, Meta } from '@storybook/react'
-import { fn } from '@storybook/test'
+import { StoryObj, Meta } from '@storybook/react-vite'
+import { fn } from 'storybook/test'
 import { useState } from 'react'
 
 import { allModes } from '../../../.storybook/modes'
