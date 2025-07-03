@@ -1,9 +1,9 @@
-import type { Preview } from '@storybook/react'
-import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport'
+import type { Preview } from '@storybook/react-vite'
+import { INITIAL_VIEWPORTS } from 'storybook/viewport'
 
 import { globalDecorators } from './decorators'
 import { viewports as breakpoints } from '../src/styles/breakpoints'
-import { DocsContainer, DocsContainerProps } from '@storybook/blocks'
+import { DocsContainer, DocsContainerProps } from '@storybook/addon-docs/blocks'
 import { ThemeProvider } from 'styled-components'
 import { lightTheme } from '../src/styles/theme'
 import { mswLoader } from 'msw-storybook-addon'

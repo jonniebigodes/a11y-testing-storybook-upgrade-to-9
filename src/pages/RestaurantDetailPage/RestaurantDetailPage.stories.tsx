@@ -1,7 +1,7 @@
-import { Meta, StoryObj } from '@storybook/react'
+import { Meta, StoryObj } from '@storybook/react-vite'
 import { http, HttpResponse, delay } from 'msw'
-import { within, userEvent } from '@storybook/test'
-import { expect } from '@storybook/test'
+import { within, userEvent } from 'storybook/test'
+import { expect } from 'storybook/test'
 
 import { BASE_URL } from '../../api'
 import { restaurants } from '../../stub/restaurants'

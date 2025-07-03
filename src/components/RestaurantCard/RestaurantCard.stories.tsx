@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from '@storybook/react-vite'
 
 import { restaurants } from '../../stub/restaurants'
 import { allModes } from '../../../.storybook/modes'

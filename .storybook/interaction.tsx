@@ -1,4 +1,4 @@
-import { userEvent } from '@storybook/test'
+import { userEvent } from 'storybook/test'
 
 export function delay(ms: number) {
   // @ts-expect-error add module augmentation for globalThis
